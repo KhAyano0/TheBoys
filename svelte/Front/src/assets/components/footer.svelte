@@ -1,0 +1,1 @@
+<footer class = "bg-black text-white py-4 text-center cursor-default">Copyright © Vought, tout droit réservées</footer>
