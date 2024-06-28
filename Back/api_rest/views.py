@@ -25,7 +25,7 @@ def get_characters(request):
 def get_by_nick(request,nick):
 
     try:
-        character = Character.objects.get(character_nickname = nick)
+        character = Character.objects.get(character_nickname__contains = nick)
     except:
         return Response(status=status.HTTP_404_NOT_FOUND)
     
