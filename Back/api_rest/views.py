@@ -9,7 +9,7 @@ from .models import Character
 from .serializers import CharacterSerializer
 
 import json
-# Create your views here.
+#By Christophe Create your views here.
 @api_view(['GET'])
 def get_characters(request):
     if request.method == 'GET':
